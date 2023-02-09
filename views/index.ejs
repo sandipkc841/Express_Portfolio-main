@@ -1,0 +1,49 @@
+<%-include partials/header.ejs%>
+<%-include partials/main_nav.ejs%>
+  <!--Mian Navigation-->
+ 
+  <!-- hero section starts -->
+<section class="home" id="home">
+  <div id="particles-js"></div>
+  <div class="content">
+  <h2>Hi There,<br/> I'm Sandip <span>K C</span></h2>
+  <p>i am into <span class="typing-text"></span></p>
+  <a href="about" class="btn"><span>About Me</span>
+    <i class="fas fa-arrow-circle-down"></i>
+  </a>
+  <div class="socials">
+      <ul class="social-icons">
+        <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/sandip-kc-111781179/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+        <li><a class="github" aria-label="GitHub" href="https://github.com/sandipkc841" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/sandip_kaysee/" target="_blank"><i class="fab fa-instagram" target="_blank"></i></a></li>
+      </ul>
+    </div>
+  </div>
+<div class="image">
+  <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+  <!--Script section -->
+  <script src="https://unpkg.com/ityped@0.0.10"></script>
+      <script>
+            window.ityped.init(document.querySelector('.typing-text'),{
+                strings: ["frontend development", "backend development", "web designing", "web development"],
+                loop: true,
+                typeSpeed: 50,
+                backSpeed: 25,
+                backDelay: 500,
+            })
+        </script>
+  
+  <%-include partials/bottom_nav.ejs%>
+ <%-include partials/footer.ejs%>
+
+
+
+
+
+
+

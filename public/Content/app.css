@@ -649,7 +649,7 @@ html::-webkit-scrollbar-thumb {
   /* education media queries ends*/
   /* education section ends */
    /* projects section starts */
-   .project {
+  .project {
     min-height: 90vh;
     background: linear-gradient(to bottom, #57059e, #4a00e0);
   }
@@ -660,46 +660,18 @@ html::-webkit-scrollbar-thumb {
   .project .heading span {
     color: rgb(255, 230, 0);
   }
-  .projects-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    padding: 20px;
-  }
-  .imgcontainer{
-    width: 350px;
-    height: 200px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  img {
-    width: 350px;
-    height:200px;
-    border-radius: 10px;
-  }
-  
-  p {
-    text-align: center;
-    margin-top: 10px;
-    font-weight: bold;
-  }
-  
-  /* .project .container {
+  .project .container {
     background: rgba(0, 0, 22, 0.4);
     color: #fff;
     border-radius: 1rem;
     padding: 2rem;
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 2rem;
   }
   .project .container .row {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     flex-wrap: wrap;
     gap: 1.8rem;
   }
@@ -712,7 +684,7 @@ html::-webkit-scrollbar-thumb {
     transition: 0.2s;
   }
   .project .container .bar:hover {
-    box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+    box-shadow: 0 8px 10px rgba(217, 12, 145, 0.8) !important;
     background-color: rgba(0, 0, 0, 0.9) !important;
   }
   .project .container .bar .info {
@@ -731,7 +703,7 @@ html::-webkit-scrollbar-thumb {
     font-family: "Poppins";
     margin-left: 0.5rem;
   }
-  skills media queries starts
+  /*skills media queries starts */
   @media screen and (max-width: 600px) {
     .project .container {
       padding: 0;
@@ -748,7 +720,7 @@ html::-webkit-scrollbar-thumb {
       width: 100%;
     }
   }
-   */
+  
   /* work section starts */
   .work {
     /* background: #010124; */
@@ -1231,7 +1203,6 @@ html::-webkit-scrollbar-thumb {
     section {
       padding: 2rem;
     }
- }
-
+  }
   /* common media queries ends*/ 
   
